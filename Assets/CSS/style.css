@@ -64,13 +64,13 @@ nav .nav-link, .contact-links {
 
 
 /*  change header and footer Link button colour on mouse hover */
-.nav-link, .contact-links:hover {
+.nav-link:hover, .contact-links:hover {
   background-color: #bab7b6;
   color: #fff;
 }
 
 /* change header and footer when link is being pressed */
- .nav-link, .contact-links:active {
+ .nav-link:active, .contact-links:active {
   font-size: 160%;
   box-shadow: 0 0 10px #000 inset;
 }
