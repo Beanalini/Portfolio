@@ -1,0 +1,224 @@
+/*------Global selectors-----*/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin: 0;
+  max-height: 100vh;
+  font-size: 20px;
+  background-color: #bab7b6;
+  }
+
+  /*section heading styling*/
+  h2 {
+    background-color: #13293d;
+    padding: 10px;
+    margin:0;
+    color:white;
+    font-size: 180%; 
+  }
+
+/************header section**************/
+header {
+    background-color: rgb(91, 87, 94);
+    color:aliceblue;
+    padding: 5px;
+    align-items: right;
+   }
+
+h1 {
+    align-content: left;
+    font-size: 250%;
+   }
+
+/* Container for Nav link buttons */
+nav {
+    display: flex;
+    background-color:rgb(91, 87, 94);
+    justify-content: right;      
+}
+
+/* Link button/boxes for header and footer*/
+.nav-link, .contact-links {
+  width: 250px;
+  margin: 0 0.5%;
+  font-size: 200%;
+  color: #13293d;
+  background-color: #13293d;;
+  border: 5px solid #13293d;
+  box-shadow: 0 0 20px #000 inset;
+  text-align: center;
+}
+
+/*Styling for header and footer links*/
+nav .nav-link, .contact-links {
+  
+  color:white;
+  padding: 10px 25px;
+  text-decoration: none;
+  font-size:150%;
+  
+}
+
+
+/*  change header and footer Link button colour on mouse hover */
+.nav-link, .contact-links:hover {
+  background-color: #bab7b6;
+  color: #fff;
+}
+
+/* change header and footer when link is being pressed */
+ .nav-link, .contact-links:active {
+  font-size: 160%;
+  box-shadow: 0 0 10px #000 inset;
+}
+
+/*************** Hero banner *****************/
+ /**Set the hero image to cover the viewport**/
+.hero-img {  
+height: 100vh;
+width:100%;
+background: url("../images/hero-pic.jpg");
+background-size: cover;
+position: relative;
+}
+
+
+/* text css above hero image*/
+.hero-title {
+  font-size: 42px;
+}
+.hero-desc {
+  font-size: 36px;
+}
+
+/**Position text over the hreo banner**/
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 18%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+/*********About Me Section***********/
+
+/**Flex Cotnainer**/
+.about {
+  display: flex;
+  width: 80%;
+  height: 40%;
+  margin: 1% auto;
+  align-items: center;
+}
+
+
+.about-image {
+  width: 100%;
+  height: 60%;
+  display: flex;
+  align-items: center;
+}
+
+.about-text {
+  margin-left: 3%;
+  flex: 1 0 60%;
+}
+
+.about-text p {
+  color:white;
+  font-size: 180%;
+}
+
+/*********** Projects Gallery ************/
+
+/*Flex Container*/
+.gallery {
+   display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: 0 auto;   
+}
+
+
+/****project container also contain flex items******/
+.project {
+  flex: 0 0 48%;
+  background-color: #fff;  
+  border-radius: 20px;
+  margin: 20px 10px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
+  padding: 15px 17px;
+  flex-wrap: wrap;
+  
+}
+
+/** Container Items **/
+.project img {
+  width:100%;
+}
+
+.project footer {
+  text-align: center;
+  font-size: 160%;
+  color: white;
+  padding: 15px;
+}
+
+/**The first project is displayed largest**/
+.project:nth-of-type(1) { /*select the first child element*/
+  flex: 0 0 65%;
+  height: 40%;
+}
+/*Change background colour on mouse hover */
+.project:hover {
+  background-color: #13293d;
+  box-shadow: 20px 20px 10px #3d3c7d
+}
+
+
+
+/*styling used for contact and project headers*/
+footer {
+  background-color: rgb(91, 87, 94);
+  padding:5%;
+  font-size: 120%;
+  text-align: center;
+}
+  
+  /**flex container for contact links*/
+.contact-details {
+  display: flex;
+  background-color: rgb(91, 87, 94);
+  justify-content: center;
+  
+}
+
+.contact-links {
+  width: 35%;
+  margin: 0% 1%;
+  font-size: 200%;
+}
+
+
+
+@media screen and (max-width: 768px) {
+  main,
+  nav,
+  .about, .contact-details,
+  .project{
+    flex-direction: column;
+  }
+
+  .hero-title {
+    font-size: 50%;
+  }
+
+  
+}
+
+
