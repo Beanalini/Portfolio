@@ -104,6 +104,8 @@ position: relative;
   color: white;
 }
 
+
+
 /*********About Me Section***********/
 
 /**Flex Cotnainer**/
@@ -121,6 +123,12 @@ position: relative;
   height: 60%;
   display: flex;
   align-items: center;
+  border-radius: 30px;
+  background-color: #13293d;;
+  border: 10px solid #2c2d2e;
+  box-shadow: 5px 10px 20px #000;
+
+
 }
 
 .about-text {
@@ -137,11 +145,12 @@ position: relative;
 
 /*Flex Container*/
 .gallery {
-   display:flex;
+  display:flex;
   justify-content: center;
   flex-wrap: wrap;
   width: 80%;
-  margin: 0 auto;   
+  margin: 0 auto; 
+  
 }
 
 
@@ -160,6 +169,7 @@ position: relative;
 /** Container Items **/
 .project img {
   width:100%;
+  
 }
 
 .project footer {
@@ -174,6 +184,9 @@ position: relative;
   flex: 0 0 65%;
   height: 40%;
 }
+
+
+
 /*Change background colour on mouse hover */
 .project:hover {
   background-color: #13293d;
