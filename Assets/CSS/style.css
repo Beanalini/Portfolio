@@ -115,6 +115,7 @@ position: relative;
   height: 40%;
   margin: 1% auto;
   align-items: center;
+  padding: 20px;
 }
 
 
@@ -231,6 +232,9 @@ footer {
     font-size: 50%;
   }
 
+  .hero-img {  
+    height: 60vh;
+  }
   
 }
 
