@@ -231,13 +231,19 @@ footer {
     flex-direction: column;
   }
 /*Reduce the size of the banner image and Title*/
-  .hero-title {
+  .hero-title, nav .nav-link, .contact-links  {
     font-size: 50%;
   }
 
   .hero-img {  
     height: 60vh;
   }
+
+  .about-text p {
+
+    font-size: 80%;
+  }
+  
   
 }
 
