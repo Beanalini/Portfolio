@@ -1,6 +1,6 @@
 # Portfolio Challenge
 
-This challenge is course work for week 2, Module 2 set by the University of Birmingham and Trilogy Ltd's Coding Bootcamp. 
+This challenge forms part of the course work for week 2, Module 2 set by the University of Birmingham and Trilogy Ltd's Coding Bootcamp. 
 
 
 
@@ -45,7 +45,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 The following animation was provided as an example to show the web application's appearance and functionality needed to meet the criteria of this challenge.
 
 
-![](assets/images/02-advanced-css-homework-demo.gif)
+![](Assets/Images/02-advanced-css-homework-demo.gif)
 
 
 ##  Portfolio Screen Shots
