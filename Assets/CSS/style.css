@@ -43,13 +43,12 @@ nav {
 /* Link button/boxes for header and footer*/
 .nav-link, .contact-links {
   width: 250px;
-  margin: 0 0.5%;
-  font-size: 200%;
+  margin: 0 0.5%;  
   color: #13293d;
   background-color: #13293d;;
   border: 5px solid #13293d;
   box-shadow: 0 0 20px #000 inset;
-  text-align: center;
+   
 }
 
 /*Styling for header and footer links*/
@@ -59,7 +58,8 @@ nav .nav-link, .contact-links {
   padding: 10px 25px;
   text-decoration: none;
   font-size:150%;
-  
+  text-align: center;
+ 
 }
 
 
@@ -158,12 +158,14 @@ position: relative;
 /****project container also contain flex items******/
 .project {
   flex: 0 0 48%;
-  background-color: #fff;  
+  /*background-color: #fff;  */
   border-radius: 20px;
   margin: 20px 10px;
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
   padding: 15px 17px;
   flex-wrap: wrap;
+  background: rgb(2,0,36);
+background: radial-gradient(circle, rgba(2,0,36,0.6082808123249299) 17%, rgba(10,4,57,0.804359243697479) 43%, rgba(83,0,255,0.9507738385881697) 100%);
   
 }
 
@@ -178,6 +180,7 @@ position: relative;
   font-size: 160%;
   color: white;
   padding: 15px;
+  align-self:baseline;
 }
 
 /**The first project is displayed largest**/
@@ -227,7 +230,7 @@ footer {
   .project{
     flex-direction: column;
   }
-
+/*Reduce the size of the banner image and Title*/
   .hero-title {
     font-size: 50%;
   }
