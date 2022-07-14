@@ -69,13 +69,10 @@ Layout of my website for small devices:
 
 ## Deployed Website
 
-Link to the deployed website:
+<a href="https://beanalini.github.io/Portfolio/">Link to the deployed website </a>
 
-<a href="">Link to the deployed website </a>
 
-: 
-
-<a href=""> Link to the portfolio repository</a>
+<a href="https://github.com/Beanalini/Portfolio"> Link to the portfolio repository</a>
 
 ## Technologies Used
 
