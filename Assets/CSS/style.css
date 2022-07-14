@@ -1,3 +1,13 @@
+
+:root {
+  --white: #fff;
+  --navy-blue: #13293d;
+  --light-grey: #bab7b6;
+  --dark-grey: rgb(91, 87, 94)
+
+}
+
+
 /*------Global selectors-----*/
 * {
   box-sizing: border-box;
@@ -9,22 +19,22 @@ body {
   line-height: 1.1;
   max-height: 100vh;
   font-size: 16px;
-  background-color: #bab7b6;
+  background-color: var(--light-grey);
   }
 
   /*section heading styling*/
   h2 {
-    background-color: #13293d;
+    background-color: var(--navy-blue);
     padding: 10px;
     margin:0;
-    color:white;
+    color:var(--white);
     font-size: 180%; 
   }
 
 /************header section**************/
 header {
-    background-color: rgb(91, 87, 94);
-    color:aliceblue;
+    background-color: var(--dark-grey);
+    color: var(--white);
     padding: 5px;
     align-items: right;
    }
@@ -38,7 +48,7 @@ h1 {
 /* Container for Nav link buttons */
 nav {
     display: flex;
-    background-color:rgb(91, 87, 94);
+    background-color:var(--dark-grey);
     justify-content: right;      
 }
 
@@ -46,9 +56,8 @@ nav {
 .nav-link, .contact-links {
   width: 250px;
   margin: 0 0.5%;  
-  color: #13293d;
-  background-color: #13293d;;
-  border: 5px solid #13293d;
+  background-color: var(--navy-blue);
+  border: 5px solid var(--navy-blue);
   box-shadow: 0 0 20px #000 inset;
    
 }
@@ -56,7 +65,7 @@ nav {
 /*Styling for header and footer links*/
 nav .nav-link, .contact-links {
   
-  color:white;
+  color:var(--white);
   padding: 10px 25px;
   text-decoration: none;
   font-size:150%;
@@ -67,8 +76,8 @@ nav .nav-link, .contact-links {
 
 /*  change header and footer Link button colour on mouse hover */
 .nav-link:hover, .contact-links:hover {
-  background-color: #bab7b6;
-  color: #fff;
+  background-color: var(--light-grey);
+  color: var(--white);
 }
 
 /* change header and footer when link is being pressed */
@@ -103,7 +112,7 @@ position: relative;
   top: 18%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: white;
+  color: var(--white);
 }
 
 
@@ -127,7 +136,7 @@ position: relative;
   display: flex;
   align-items: center;
   border-radius: 30px;
-  background-color: #13293d;;
+  background-color: var(--navy-blue);
   border: 10px solid #2c2d2e;
   box-shadow: 5px 10px 20px #000;
 
@@ -140,7 +149,7 @@ position: relative;
 }
 
 .about-text p {
-  color:white;
+  color:var(--white);
   font-size: 180%;
 }
 
@@ -159,15 +168,14 @@ position: relative;
 
 /****project container also contain flex items******/
 .project {
-  flex: 0 0 48%;
-  /*background-color: #fff;  */
+  flex: 0 0 48%;  
   border-radius: 20px;
   margin: 20px 10px;
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
   padding: 15px 17px;
   flex-wrap: wrap;
   background: rgb(2,0,36);
-background: radial-gradient(circle, rgba(2,0,36,0.6082808123249299) 17%, rgba(10,4,57,0.804359243697479) 43%, rgba(83,0,255,0.9507738385881697) 100%);
+  background: radial-gradient(circle, rgba(2,0,36,0.61) 17%, rgba(10,4,57,0.8) 43%, rgba(83,0,255,0.95) 100%);
   
 }
 
@@ -180,7 +188,7 @@ background: radial-gradient(circle, rgba(2,0,36,0.6082808123249299) 17%, rgba(10
 .project footer {
   text-align: center;
   font-size: 160%;
-  color: white;
+  color: var(--white);
   padding: 15px;
   align-self:baseline;
 }
@@ -195,7 +203,7 @@ background: radial-gradient(circle, rgba(2,0,36,0.6082808123249299) 17%, rgba(10
 
 /*Change background colour on mouse hover */
 .project:hover {
-  background-color: #13293d;
+  background-color:var(--navy-blue);
   box-shadow: 20px 20px 10px #3d3c7d
 }
 
@@ -203,7 +211,7 @@ background: radial-gradient(circle, rgba(2,0,36,0.6082808123249299) 17%, rgba(10
 
 /*styling used for contact and project headers*/
 footer {
-  background-color: rgb(91, 87, 94);
+  background-color: var(--dark-grey);
   padding:5%;
   font-size: 120%;
   text-align: center;
@@ -212,7 +220,7 @@ footer {
   /**flex container for contact links*/
 .contact-details {
   display: flex;
-  background-color: rgb(91, 87, 94);
+  background-color: var(--dark-grey);
   justify-content: center;
   
 }
