@@ -45,7 +45,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 The following animation was provided as an example to show the web application's appearance and functionality needed to meet the criteria of this challenge.
 
 
-![](./assets/images/02-advanced-css-homework-demo.gif)
+![](assets/images/02-advanced-css-homework-demo.gif)
 
 
 ##  Portfolio Screen Shots
@@ -54,18 +54,18 @@ The landing page for my portfolio website is shown below.  The navigation button
 
 Portfolio landing page:
 
-![](./assets/images/portfolio-landingpage.png)
+![](assets/images/portfolio-landingpage.png)
 
 
 
 
 Layout of my website for larger devices:
 
-![](./assets/images/portfolio-screenshot.png)
+![](assets/images/portfolio-screenshot.png)
 
 Layout of my website for small devices:
 
-![](./assets/images/responsive-portfolio.png)
+![](assets/images/responsive-portfolio.png)
 
 ## Deployed Website
 
