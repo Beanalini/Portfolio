@@ -1,6 +1,6 @@
 # Portfolio Challenge
 
-This challenge forms part of the course work for week 2, Module 2 set by the University of Birmingham and Trilogy Ltd's Coding Bootcamp. 
+This challenge forms part of the course work for week 2, Module 2, set by the University of Birmingham and Trilogy Ltd's Coding Bootcamp. 
 
 
 
@@ -54,18 +54,18 @@ The landing page for my portfolio website is shown below.  The navigation button
 
 Portfolio landing page:
 
-![](assets/images/portfolio-landingpage.png)
+![](Assets/Images/portfolio-landingpage.png)
 
 
 
 
 Layout of my website for larger devices:
 
-![](assets/images/portfolio-screenshot.png)
+![](Assets/Images/portfolio-screenshot.png)
 
 Layout of my website for small devices:
 
-![](assets/images/responsive-portfolio.png)
+![](Assets/Images/responsive-portfolio.png)
 
 ## Deployed Website
 
