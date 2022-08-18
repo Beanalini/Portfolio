@@ -61,11 +61,11 @@ Portfolio landing page:
 
 Layout of my website for larger devices:
 
-![](Assets/Images/portfolio-screenshot.png)
+![](Assets/Images/screenshot.png)
 
 Layout of my website for small devices:
 
-![](Assets/Images/responsive-portfolio.png)
+![](Assets/Images/newResponsive.png)
 
 ## Deployed Website
 
